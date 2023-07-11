@@ -1,0 +1,6 @@
+# Provedor C
+ifconfig eth0 90.0.0.2/30
+ifconfig eth1 220.0.0.1/30
+
+route add default gw 90.0.0.1
+

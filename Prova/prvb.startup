@@ -1,0 +1,6 @@
+# Provedor B
+ifconfig eth0 70.0.0.2/30
+ifconfig eth1 210.0.0.1
+
+route add default gw 70.0.0.1
+

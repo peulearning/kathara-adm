@@ -1,0 +1,5 @@
+ifconfig eth0 50.50.50.2/30
+ifconfig eth1 40.40.40.2/30
+ifconfig eth2 200.30.40.10/2
+route add -net 200.40.50.112/28 gw 50.50.50.1
+route add -net 200.30.20.0/26 gw 40.40.40.1
